@@ -1,6 +1,6 @@
 # ManiaScript Reference
 
-- [**TrackmaniaCN** 2020-10-02_13-21](https://codyninja1.github.io/maniascript-reference/trackmania)
+- [**TrackmaniaCN** 2020-10-02_13-21](https://codyninja1.github.io/tmcn-maniascript-reference/trackmania/index.html)
 
 ## Contribute with new doc.h
 
