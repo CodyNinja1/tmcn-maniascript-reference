@@ -37,33 +37,15 @@ jobs:
         with:
           submodules: true
       
-      - name: Generate ManiaPlanet documentation
-        uses: mattnotmitt/doxygen-action@v1.9.8
-        with:
-          working-directory: ManiaPlanet
-      
       - name: Generate Trackmania documentation
         uses: mattnotmitt/doxygen-action@v1.9.8
         with:
           working-directory: Trackmania
       
-      - name: Generate Trackmania Turbo documentation
-        uses: mattnotmitt/doxygen-action@v1.9.8
-        with:
-          working-directory: TrackmaniaTurbo
-      
-      - name: Generate ManiaPlanet 3 documentation
-        uses: mattnotmitt/doxygen-action@v1.9.8
-        with:
-          working-directory: ManiaPlanet3
-      
       - name: Organize the docs
         run: |
           mkdir docs
-          sudo mv ManiaPlanet/docs/html docs/maniaplanet
           sudo mv Trackmania/docs/html docs/trackmania
-          sudo mv TrackmaniaTurbo/docs/html docs/tmturbo
-          sudo mv ManiaPlanet3/docs/html docs/maniaplanet3outdated
         
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
