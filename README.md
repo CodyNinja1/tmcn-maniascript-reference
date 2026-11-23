@@ -4,7 +4,7 @@
 
 ## Contribute with new doc.h
 
-For Cyclone, it's no longer expected that the game will update.
+For TMCN, it's no longer expected that the game will update.
 
 ## Doxygen Awesome
 
